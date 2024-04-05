@@ -22,6 +22,7 @@ while True:
 
         if valor > 0:
             saldo += valor
+            print(f"Depositado o valor de R$ {valor:.2f}\n")
             extrato += f"Depósito: R$ {valor:.2f}\n"
 
         else:
