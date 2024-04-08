@@ -1,5 +1,5 @@
 import textwrap
-from abc import ABC, abstractclassmethod, abstractproperty
+from abc import ABC, classmethod
 from datetime import datetime
 
 
@@ -136,11 +136,11 @@ class Historico:
 
 class Transacao(ABC):
     @property
-    @abstractproperty
+    @classmethod
     def valor(self):
         pass
 
-    @abstractclassmethod
+    @classmethod
     def registrar(self, conta):
         pass
 
@@ -309,7 +309,6 @@ def listar_contas(contas):
 def main():
     clientes = []
     contas = []
-    
     while True:
         opcao = menu()
 
