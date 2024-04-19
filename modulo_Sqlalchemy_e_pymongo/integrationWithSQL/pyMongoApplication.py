@@ -2,7 +2,8 @@ import pprint
 
 import pymongo as pyM
 
-client = pyM.MongoClient("mongodb+srv://kauaseichi:jBOaferNhNLcglJa@cluster0.8ld7j9w.mongodb.net/?retryWrites=true&w=majority")
+# use suas credenciais aqui e seu cluster
+client = pyM.MongoClient("mongodb+srv://<nome>:<senha>@<cluster>.8ld7j9w.mongodb.net/?retryWrites=true&w=majority")
 
 db = client.test
 collection = db.test_collection

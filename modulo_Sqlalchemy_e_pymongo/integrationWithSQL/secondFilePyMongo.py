@@ -35,4 +35,3 @@ for collection in collections:
 for post in posts.find():
     pprint.pprint(post)
 
-client.drop_database('test')
