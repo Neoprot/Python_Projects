@@ -1,4 +1,10 @@
 # Desafio implementando com Sqlite e MongoDB
+Antes de executar os códigos execute os seguintes comandos
+```
+    pip3 install sqlalchemy
+    pip3 install pymongo
+```
+
 ## Parte 1 - Implementando um Banco de Dados Relacional com SQLAlchemy
 
 Objetivo:
